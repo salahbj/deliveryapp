@@ -17,7 +17,7 @@ class AuthRepo {
 
   Future<Response> login(String countryCode, String phone, String password) async {
     return await apiClient.postData(AppConstants.loginUri,
-        {"country_code": countryCode ,"phone": phone, "password": password});
+        {"country_code": countryCode ,"username": phone, "password": password});
   }
 
 

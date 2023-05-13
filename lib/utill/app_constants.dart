@@ -2,13 +2,13 @@ import 'package:sixvalley_delivery_boy/data/model/response/language_model.dart';
 import 'images.dart';
 
 class AppConstants {
-  static const String companyName = '6valley';
-  static const String appName = 'Deliveryman';
+  static const String companyName = 'ColiComSquare';
+  static const String appName = 'Colicom Delivery';
   static const String polylineMapKey = 'MAP_KEY';
-  static const String baseUri = 'https://6valley.6amtech.com';
+  static const String baseUri = 'https://seller.colicomsquare.com';
   static const String profileUri = '/api/v2/delivery-man/info';
   static const String configUri = '/api/v1/config';
-  static const String loginUri = '/api/v2/delivery-man/auth/login';
+  static const String loginUri = '/api/login_check';
   static const String notificationUri = '/api/v2/delivery-man/notifications';
   static const String currentOrderUri = '/api/v2/delivery-man/current-orders';
   static const String orderDetailsUri = '/api/v2/delivery-man/order-details?order_id=';
